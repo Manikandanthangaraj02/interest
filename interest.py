@@ -1,0 +1,11 @@
+p=float(input())
+N=float(input())
+R=float(input())
+I=(p*N*R)/100
+A=I+p
+D=I*0.02
+T=A-D
+print("%.2f"%I)
+print("%.2f"%A)
+print("%.2f"%D)
+print("%.2f"%T)
